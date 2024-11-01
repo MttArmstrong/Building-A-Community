@@ -5,7 +5,7 @@
 .sass-cache
 .jekyll-cache/
 __pycache__
-_site
+site/
 .Rproj.user
 .Rhistory
 .RData

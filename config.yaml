@@ -28,19 +28,19 @@ keywords: 'software, research, community'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'alpha' 
+life_cycle: 'beta' 
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/INTERSECT-training/Building-A-Community' # FIXME
+source: 'https://github.com/INTERSECT-training/Building-A-Community'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'icosden@princeton.edu' # FIXME
+contact: 'icosden@princeton.edu' 
 
 # Navigation ------------------------------------------------
 #
@@ -87,4 +87,16 @@ profiles:
 # sandpaper and varnish versions) should live
 
 varnish: intersect-training/varnish
+
+analytics: | 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5ENP80CS36"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-5ENP80CS36');
+  </script>
+
 
